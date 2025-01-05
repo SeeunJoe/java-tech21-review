@@ -27,7 +27,5 @@ public class CountApp {
         .count();
     System.out.println(r2);
 
-
-    // 2.
   }
 }

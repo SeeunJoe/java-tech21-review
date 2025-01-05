@@ -22,3 +22,4 @@ public class App {
     r4.apply(1);
   }
 }
+
