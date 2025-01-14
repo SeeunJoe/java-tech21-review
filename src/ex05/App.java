@@ -9,7 +9,7 @@ public class App {
         Controller con = new Controller(service);
         DispatcherServlet ds = new DispatcherServlet(con);
 
-        ds.route("/"); // spring에서는 tomcat이 이 루트를 때리면 dispatcherServlet을 때리고 controller로 넘어간다.
+        ds.route("/board"); // spring에서는 tomcat이 이 루트를 때리면 dispatcherServlet을 때리고 controller로 넘어간다.
 
     }
 }

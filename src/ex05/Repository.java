@@ -9,6 +9,10 @@ public class Repository {
     }
 
     public int findByID() {
-        return 1;
+        /**
+         * 조회하다가 오류 [1.숫자를 리턴 -1을 받으면 오류]
+         **/
+
+        return -1;
     }
 }

@@ -23,6 +23,10 @@ public class Controller {
 
     public void detail(){
         int model = service.상세보기();
+        if(model == -1){
+            System.out.println("오류 발생");
+            return; // stop
+        }
         System.out.println("rendering : "+model);
     }
 }
