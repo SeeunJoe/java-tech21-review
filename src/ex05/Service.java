@@ -21,6 +21,12 @@ public class Service {
     }
 
     public int 상세보기() {
-        return repo.findByID();
+        // repository 에서 throw한 걸 service에서 잡아준다.
+//        try {
+            return repo.findByID(); // 그냥 자동 위임시킨다. controller로
+//        }catch (RuntimeException e) {
+//            System.out.println("service : "+ e.getMessage());
+//            return -1;
+//        }
     }
 }
